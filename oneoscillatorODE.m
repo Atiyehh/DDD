@@ -1,10 +1,10 @@
 % Given parameters and data
-tic;
+
 V = linspace(-0.48, 0.9, 298);
 I = msh_array(1:298, 2) * 1e-3;
 L = 1e-3;
 C =1e-9; 
-tmax=0.01;
+
 
 ind_0 = find(V >= 0, 1);
 dV=mean(diff(V));
